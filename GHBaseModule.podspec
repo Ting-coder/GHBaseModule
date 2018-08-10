@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GHBaseModule'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'GHBaseModule'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ GHBaseModule组件化基础组件相关
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.swift_version = '4.0'
-  s.ios.deployment_target = '9.3'
+  s.ios.deployment_target = '9.0'
 
 # s.source_files = 'GHBaseModule/Classes/**/*'
   
