@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GHBaseModule_Example' do
+  pod 'GHBaseModule', :path => '../'
+
+  target 'GHBaseModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
