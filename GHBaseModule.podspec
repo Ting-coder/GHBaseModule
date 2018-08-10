@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GHBaseModule'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'GHBaseModule'
 
 # This description is used to generate tags and improve search results.
@@ -28,6 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Ting-coder/GHBaseModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.swift_version = '4.0'
   s.ios.deployment_target = '9.3'
 
 # s.source_files = 'GHBaseModule/Classes/**/*'
@@ -56,6 +57,7 @@ Pod::Spec.new do |s|
   s.subspec 'Tools' do |t|
       t.source_files = 'GHBaseModule/Classes/Tools/**/*'
   end
+  
   
   
   # s.resource_bundles = {
