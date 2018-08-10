@@ -1,0 +1,6 @@
+framework module Pods_GHBaseModule_Tests {
+  umbrella header "Pods-GHBaseModule_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

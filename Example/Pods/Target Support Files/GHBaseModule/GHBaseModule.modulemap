@@ -1,0 +1,6 @@
+framework module GHBaseModule {
+  umbrella header "GHBaseModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

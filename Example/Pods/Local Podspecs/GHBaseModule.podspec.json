@@ -1,0 +1,47 @@
+{
+  "name": "GHBaseModule",
+  "version": "0.1.0",
+  "summary": "GHBaseModule",
+  "description": "组件化基础组件相关",
+  "homepage": "https://github.com/Ting-coder/GHBaseModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "haoguanhao": "1101895317@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Ting-coder/GHBaseModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.3"
+  },
+  "subspecs": [
+    {
+      "name": "Base",
+      "source_files": "GHBaseModule/Classes/Base/**/*"
+    },
+    {
+      "name": "Extension",
+      "source_files": "GHBaseModule/Classes/Extension/**/*"
+    },
+    {
+      "name": "Layout",
+      "source_files": "GHBaseModule/Classes/Layout/**/*"
+    },
+    {
+      "name": "ViewModel",
+      "source_files": "GHBaseModule/Classes/ViewModel/**/*"
+    },
+    {
+      "name": "Protocol",
+      "source_files": "GHBaseModule/Classes/Protocol/**/*"
+    },
+    {
+      "name": "Tools",
+      "source_files": "GHBaseModule/Classes/Tools/**/*"
+    }
+  ]
+}

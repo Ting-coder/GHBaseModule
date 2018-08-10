@@ -1,0 +1,28 @@
+PODS:
+  - GHBaseModule (0.1.0):
+    - GHBaseModule/Base (= 0.1.0)
+    - GHBaseModule/Extension (= 0.1.0)
+    - GHBaseModule/Layout (= 0.1.0)
+    - GHBaseModule/Protocol (= 0.1.0)
+    - GHBaseModule/Tools (= 0.1.0)
+    - GHBaseModule/ViewModel (= 0.1.0)
+  - GHBaseModule/Base (0.1.0)
+  - GHBaseModule/Extension (0.1.0)
+  - GHBaseModule/Layout (0.1.0)
+  - GHBaseModule/Protocol (0.1.0)
+  - GHBaseModule/Tools (0.1.0)
+  - GHBaseModule/ViewModel (0.1.0)
+
+DEPENDENCIES:
+  - GHBaseModule (from `../`)
+
+EXTERNAL SOURCES:
+  GHBaseModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GHBaseModule: 43524e801b75f2b411a273462ab65d6a95774eec
+
+PODFILE CHECKSUM: bae73e6ee442c23c8777497b79a30a1d9e34513e
+
+COCOAPODS: 1.5.3
