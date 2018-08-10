@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GHBaseModule'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'GHBaseModule'
 
 # This description is used to generate tags and improve search results.
@@ -35,6 +35,7 @@ GHBaseModule组件化基础组件相关
   
   s.subspec 'Base' do |b|
       b.source_files = 'GHBaseModule/Classes/Base/**/*'
+      b.dependency 'GHPublicSpecs/Extension'
   end
   
   s.subspec 'Extension' do |e|
